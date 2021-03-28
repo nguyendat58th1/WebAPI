@@ -199,11 +199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Webapi\\Webapi.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documents\\GitHub\\WebAPI\\Webapi\\Webapi.csproj",
       "projectName": "Webapi",
-      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Webapi\\Webapi.csproj",
+      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\GitHub\\WebAPI\\Webapi\\Webapi.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Webapi\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\GitHub\\WebAPI\\Webapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

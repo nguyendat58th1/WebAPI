@@ -44,21 +44,21 @@ namespace Webapi.Controllers
         }
         
         [HttpGet]
-        [Route("/api/member/getmemberwithfullname")]
+        [Route("/api/member/filterMemberByBirthYear/{year}")]
         public List<Member> FilterMemberByBirthYear(int year)
         {
             return _memberhandler.FilterMemberByBirthYear(year);
         }
         
         [HttpGet]
-        [Route("/api/member/getmemberwithfullname")]
+        [Route("/api/member/filterMemberByGreaterThanBirthYear/{year}")]
         public List<Member> FilterMemberByGreaterThanBirthYear(int year)
         {
             return _memberhandler.FilterMemberByBirthYearGreaterThan(year);
         }
         
         [HttpGet]
-        [Route("/api/member/getmemberwithfullname")]
+        [Route("/api/member/filterMemberByLessThanBirthYear/{year}")]
         public List<Member> FilterMemberByLessThanBirthYear(int year)
         {
             return _memberhandler.FilterMemberByBirthYearLessThan(year);
